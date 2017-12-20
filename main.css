@@ -565,3 +565,68 @@ main {
 .video span {
   font-size: 10px;
 }
+
+.newsletter {
+  width: 310px;
+  height: 150px;
+  box-sizing: content-box;
+  padding: 15px 0;
+  border-top: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin: 7px 30px 15px 0;
+  float: left;
+}
+
+.newsletter h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.newsletter p {
+  font-size: 13px;
+  color: #666;
+}
+
+.newsletter button {
+  box-sizing: content-box;
+  background-color: rgb(243, 243, 243);
+  width: 45px;
+  height: 12px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  padding: 8px 15px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.newsletter ul {
+  box-sizing: content-box;
+  padding: 0;
+  padding-top: 6px;
+  margin-bottom: 10px;
+  border-top: 1px solid #e2e2e2;
+  font-size: 9px;
+  display: flex;
+  list-style: none;
+
+}
+
+.newsletter a {
+  text-decoration: none;
+  color: #333;
+}
+
+#newsletter-a1, #newsletter-a2 {
+  padding-right: 5px;
+}
+
+#newsletter-a2, #newsletter-a3 {
+  padding-left: 5px;
+}
+
+#newsletter-a2 {
+  border-left: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+}
