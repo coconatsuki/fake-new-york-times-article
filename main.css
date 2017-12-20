@@ -1,6 +1,11 @@
 /* ------------------------------HEADER ------------------------------ */
 
+body {
+
+}
+
 .top-nav {
+  z-index: 9000;
   height: 48px;
   margin-left: 30px;
   position: fixed;
@@ -184,7 +189,7 @@ i {
 
 .ribbon-menu {
   height: 82px;
-  width: 4634px;
+  width: 100%;
   border-bottom: 1px solid width: 4634px;
   box-shadow: 0 4px 4px rgba(0,0,0,0.06);
   margin: 0;
@@ -374,7 +379,7 @@ main {
 }
 
 .up-story-body {
-  height: 1177px;
+  height: 1147px;
   width: 1125px;
   display: flex;
   flex-wrap: wrap;
@@ -542,14 +547,21 @@ main {
   top: 300px;
 }
 
-.graphic-text-2 {
-
+.graphic-credit {
+  font-size: 11px;
+  color: #999;
+  margin: 0;
+  margin-top: 25px;
 }
 
-.graphic-text-3 {
-
+.video {
+  width: 645px;
+  height: 343px;
+  margin: 45px 0 30px 0;
+  font-size: 12px;
+  color: #666;
 }
 
-.graphic-text-4 {
-
+.video span {
+  font-size: 10px;
 }
