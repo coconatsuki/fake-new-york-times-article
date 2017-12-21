@@ -782,7 +782,7 @@ main {
   border-top: 1px solid rgb(204, 204, 204);
 }
 
-.more-articles-top header {
+.more-articles-top header, .recommendations header, .main-footer header {
   width: 705px;
   height: 16px;
   padding: 7px 13px;
@@ -792,24 +792,24 @@ main {
   align-items: baseline;
 }
 
-.more-articles-top h2 {
+.more-articles-top h2, .recommendations h2 {
   font-size: 16px;
   font-weight: 700;
   margin: 0;
 }
 
-#cosmos-section {
+#cosmos-section, #all-recommendations {
   color: #6288a5;
   font-size: 10px;
 }
 
-.more-articles-list {
+.more-articles-list, .recommendations-list {
   width: 705px;
   height: 458px;
   padding: 0;
 }
 
-.more-articles-list li {
+.more-articles-list li, .recommendations-list li {
   width: 210px;
   height: 220px;
   list-style: none;
@@ -817,14 +817,14 @@ main {
   margin: 12px;
 }
 
-.more-articles-list a {
+.more-articles-list a, .recommendations-list a {
   text-decoration: none;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 15px;
   color: black;
 }
 
-.more-pic {
+.more-pic, .recommendation-photo {
   width: 210px;
   height: 140px;
 }
@@ -863,25 +863,4 @@ main {
   height: 275px;
   border-top: 1px solid #ccc;
   margin-top: 50px;
-}
-
-.recommendations header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  box-sizing: content-box;
-  height: 16px;
-  padding: 7px 13px;
-}
-
-.recommendations h2 {
-  font-size: 16px;
-  font-weight: 700;
-  margin: 0;
-}
-
-#all-recommendations {
-  color: #6288a5;
-  font-size: 10px;
-  text-decoration: none;
 }
