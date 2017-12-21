@@ -686,22 +686,80 @@ main {
   height: 40px;
   margin-bottom: 6px;
   border-top: 1px solid rgb(243, 243, 243);
-  font-size: 12px
+  font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
+  display: flex;
 }
 
 .trending-list a {
   text-decoration: none;
+  color: #326891;
+  font-size: 15px;
 }
 
-.trending-list:first-child {
+.trending-list li:first-child {
     border-top: none;
+}
+
+.trending-list li:last-child {
+  border-bottom: 1px solid rgb(243, 243, 243);
 }
 
 .trend-pic {
   height: 40px;
   width: 40px;
+  display: block;
+  margin-left: 15px;
 }
 
+.number {
+  font-size: 17px;
+  margin-right: 15px;
+}
+
+#trend1, #trend5 {
+  flex-grow: 1;
+}
+
+#trending1 {
+  background: url(images/trending1.jpg);
+}
+
+#trending2 {
+  background: url(images/trending2.png);
+}
+
+#trending3 {
+  background: url(images/trending3.jpg);
+}
+
+#trending4 {
+  background: url(images/trending4.jpg);
+}
+
+#trending5 {
+  background: url(images/trending5.jpg);
+  float: right;
+}
+
+#trending6 {
+  background: url(images/trending6.jpg);
+}
+
+#trending7 {
+  background: url(images/trending7.jpg);
+}
+
+#trending8 {
+  background: url(images/trending8.jpg);
+}
+
+#trending9 {
+  background: url(images/trending9.jpg);
+}
+
+#trending10 {
+  background: url(images/trending10.png);
+}
 
 .more-articles-box {
   width: 705px;
@@ -712,4 +770,10 @@ main {
 .more-articles-top {
   height: 497px;
   margin-bottom: 20px;
+}
+
+.trending-footer a {
+  color: #326891;
+  text-decoration: none;
+  font-size: 10px;
 }
