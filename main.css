@@ -1,7 +1,11 @@
 /* ------------------------------HEADER ------------------------------ */
 
-body {
+a {
+  text-decoration: none !important;
+}
 
+a:hover {
+  text-decoration: underline !important;
 }
 
 .top-nav {
@@ -145,7 +149,7 @@ i {
  margin-top: 8px;
 }
 
-.suscribe-button {
+.subscribe-button {
   height: 15px;
   width: 88px;
   padding: 7px 10px 6px 10px;
@@ -217,7 +221,6 @@ i {
 
 .ribbon-link {
   display: flex;
-  text-decoration: none;
 }
 
 .content-box {
@@ -311,12 +314,7 @@ main {
 
 #kicker a {
   font-family: 'Libre Franklin', arial, helvetica, sans-serif;
-  text-decoration: none;
   color: black;
-}
-
-#kicker a:hover {
-  text-decoration: underline;
 }
 
 #headline {
@@ -461,7 +459,6 @@ main {
 
 .comments-footer a {
   color: rgb(50, 104, 145);
-  text-decoration: none;
   font-size: 9px;
 }
 
@@ -614,7 +611,6 @@ main {
 }
 
 .newsletter a {
-  text-decoration: none;
   color: #333;
 }
 
@@ -692,7 +688,6 @@ main {
 }
 
 .trending-list a {
-  text-decoration: none;
   color: #326891;
   font-size: 15px;
 }
@@ -764,7 +759,6 @@ main {
 
 .trending-footer a {
   color: #326891;
-  text-decoration: none;
   font-size: 10px;
 }
 
@@ -818,7 +812,6 @@ main {
 }
 
 .more-articles-list a, .recommendations-list a {
-  text-decoration: none;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 15px;
   color: black;
@@ -908,20 +901,66 @@ main {
 .column a {
   font-size: 13px;
   font-weight: 500;
-  text-decoration: none;
   color: black;
   line-height: 22px;
 }
 
-.column a:hover {
-  text-decoration: underline;
-}
-
 .last-column-block {
-  background: url(images/footer-last.png) no-repeat;
+  backgrounde: url(images/footer-last.png) no-repeat;
   background-size: contain;
   width: 200px;
   height: 270px;
+
+}
+
+.last-column {
+  width: 179px;
   border-left: 1px solid #ccc;
-  padding-left: 10px;
+  padding-left: 20px;
+}
+
+.subscribe-list {
+  list-style: none;
+  padding: 0;
+}
+
+.subscribe-list1 {
+  height: 76px;
+  margin-bottom: 15px;
+}
+
+.subscribe-list1 li {
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.subscribe-list1 a {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.subscribe-list2 a, .subscribe-list3 a {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.subscribe-list2 {
+  margin-bottom: 7px;
+}
+
+.subscribe-list3 {
+  border-top: 1px solid #ccc;
+}
+
+#home-delivery {
+  background-position: -220px -54px;
+}
+
+#digital-sub {
+  background-position: -35px -280px;
+}
+
+#crosswords {
+  background-position: -349px 3px;
 }
