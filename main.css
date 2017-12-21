@@ -798,7 +798,7 @@ main {
   margin: 0;
 }
 
-#cosmos-section, #all-recommendations {
+#cosmos-section, #all-recommendations, #home-page-link {
   color: #6288a5;
   font-size: 10px;
 }
@@ -863,4 +863,26 @@ main {
   height: 275px;
   border-top: 1px solid #ccc;
   margin-top: 50px;
+}
+
+/* --------------------------------MAIN FOOTER------------------------------- */
+
+.main-footer {
+  width: 1050px;
+  height: 421px;
+  border-top: 1px solid #ccc;
+  margin: 65px auto 25px auto;
+}
+
+.main-footer header {
+  width: inherit;
+  padding: 0;
+  height: 56px;
+}
+
+#footer-logo {
+  height: 26px;
+  width: 185px;
+  display: block;
+  background: url(images/logo.png) no-repeat;
 }
