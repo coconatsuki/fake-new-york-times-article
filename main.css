@@ -667,6 +667,7 @@ main {
 
 .trending-box {
   font-size: 15px;
+  border-top: 1px solid rgb(204, 204, 204);
 }
 
 .trending-box header {
@@ -761,6 +762,14 @@ main {
   background: url(images/trending10.png);
 }
 
+.trending-footer a {
+  color: #326891;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/*------------------------------ More articles----------------------------- */
+
 .more-articles-box {
   width: 705px;
   height: 777px;
@@ -770,10 +779,77 @@ main {
 .more-articles-top {
   height: 497px;
   margin-bottom: 20px;
+  border-top: 1px solid rgb(204, 204, 204);
 }
 
-.trending-footer a {
-  color: #326891;
-  text-decoration: none;
+.more-articles-top header {
+  width: 705px;
+  height: 16px;
+  padding: 7px 13px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.more-articles-top h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#cosmos-section {
+  color: #6288a5;
   font-size: 10px;
+}
+
+.more-articles-list {
+  width: 705px;
+  height: 458px;
+  padding: 0;
+}
+
+.more-articles-list li {
+  width: 210px;
+  height: 220px;
+  list-style: none;
+  float: left;
+  margin: 12px;
+}
+
+.more-articles-list a {
+  text-decoration: none;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 15px;
+  color: black;
+}
+
+.more-pic {
+  width: 210px;
+  height: 140px;
+}
+
+#more-pic1 {
+  background: url(images/more1.jpg) no-repeat;
+}
+
+#more-pic2 {
+  background: url(images/more2.jpg) no-repeat;
+}
+
+#more-pic3 {
+  background: url(images/more3.jpg) no-repeat;
+}
+
+#more-pic4 {
+  background: url(images/more4.jpg) no-repeat;
+}
+
+#more-pic5 {
+  background: url(images/more5.jpg) no-repeat;
+}
+
+#more-pic6 {
+  background: url(images/more6.jpg) no-repeat;
+  background-size: contain;
 }
