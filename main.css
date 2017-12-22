@@ -1,4 +1,12 @@
-/* ------------------------------HEADER ------------------------------ */
+/* ------------------------------GENERAL ------------------------------ */
+
+a, p, h1, h2, h3, h4, h5, h6 {
+  font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
+}
+
+main, header, footer, aside, h1, h2, h3, h4, h5, h6, p, ul, li, button, div {
+  box-sizing: content-box !important;
+}
 
 a {
   text-decoration: none !important;
@@ -8,6 +16,35 @@ a:hover {
   text-decoration: underline !important;
 }
 
+i {
+  height: 16px;
+  width: 16px;
+  background: url(images/sprite.png) no-repeat;
+}
+
+.credit {
+  color: #999;
+  font-size: 11px;
+}
+
+.nav-links {
+  color: #6288a5;
+  font-size: 10px;
+}
+
+.caption {
+  font-size: 14px;
+  color: #666;
+  line-height: 20px;
+}
+
+.small-caption {
+  margin-top: 3px;
+  font-size: 13px;
+}
+
+/* ------------------------------HEADER ------------------------------ */
+
 .top-nav {
   z-index: 9000;
   height: 48px;
@@ -16,12 +53,6 @@ a:hover {
   width: 100%;
   top: 0;
   background: white;
-}
-
-i {
-  height: 16px;
-  width: 16px;
-  background: url(images/sprite.png) no-repeat;
 }
 
 .top-nav-container, .quick-nav-group, .button  {
@@ -242,7 +273,6 @@ i {
 
 .ribbon-headers h3, .ribbon-headers h4 {
     color: #333;
-    font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
     font-weight: 300;
     line-height: 1rem;
     margin: 0;
@@ -325,7 +355,6 @@ main {
   font-size: 32px;
   font-weight: 700;
   font-style: italic;
-  font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
 }
 
 .header-bottom {
@@ -365,19 +394,8 @@ main {
   width: 1125px;
 }
 
-#main-caption {
-  font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
-  font-size: 14px;
-  color: #666;
-}
-
-#main-credit {
-  color: #999;
-  font-size: 11px;
-}
-
 .up-story-body {
-  height: 1147px;
+  height: 1450px;
   width: 1125px;
   display: flex;
   flex-wrap: wrap;
@@ -388,8 +406,9 @@ main {
   height: inherit;
   width: 705px;
   color: #333;
-  font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+  line-height: 25px;
   font-size: 16px;
+  font-family: georgia, "times new roman", times, serif;
 }
 
 .story-comments {
@@ -447,6 +466,7 @@ main {
   font-size: 12px;
   margin: 0;
   line-height: 16px;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .comments-footer {
@@ -455,11 +475,6 @@ main {
   margin-top: 15px;
   padding-top: 2px;
   border-top: 1px solid rgb(226, 226, 226);
-}
-
-.comments-footer a {
-  color: rgb(50, 104, 145);
-  font-size: 9px;
 }
 
 /*----------------------------- Inflation-------------------------------- */
@@ -482,8 +497,6 @@ main {
 .inflation-caption {
   width: inherit;
   height: 62px;
-  font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
-  color: #333
 }
 
 .inflation-caption h2 {
@@ -491,14 +504,12 @@ main {
   margin-bottom: 3px;
   font-size: 19px;
   font-weight: 700;
+  color: #333;
 }
 
 .inflation-caption p {
   margin: 0;
   margin-bottom: 10px;
-  color: #666;
-  font-size: 13px;
-  font-weight: 400;
 }
 
 .graphic {
@@ -520,10 +531,13 @@ main {
   width: 228px;
   font-size: 13px;
   font-weight: 300;
-  font-family: 'Libre Franklin', arial, helvetica, sans-serif;
   line-height: 16px;
   letter-spacing: 0.3px;
   margin: 0;
+}
+
+.graph p, .graph span {
+    font-family: 'Libre Franklin', arial, helvetica, sans-serif;
 }
 
 .graph p {
@@ -545,8 +559,6 @@ main {
 }
 
 .graphic-credit {
-  font-size: 11px;
-  color: #999;
   margin: 0;
   margin-top: 25px;
 }
@@ -555,12 +567,6 @@ main {
   width: 645px;
   height: 343px;
   margin: 45px 0 30px 0;
-  font-size: 12px;
-  color: #666;
-}
-
-.video span {
-  font-size: 10px;
 }
 
 .newsletter {
@@ -635,15 +641,6 @@ main {
 
 .middle-image img {
   height: 430px;
-}
-
-.middle-image p {
-  color: #666;
-  font-size: 13px;
-}
-
-.middle-image span {
-  font-size: 11px;
 }
 
 .story-footer {
@@ -757,11 +754,6 @@ main {
   background: url(images/trending10.png);
 }
 
-.trending-footer a {
-  color: #326891;
-  font-size: 10px;
-}
-
 /*------------------------------ More articles----------------------------- */
 
 .more-articles-box {
@@ -792,11 +784,6 @@ main {
   margin: 0;
 }
 
-#cosmos-section, #all-recommendations, #home-page-link {
-  color: #6288a5;
-  font-size: 10px;
-}
-
 .more-articles-list, .recommendations-list {
   width: 705px;
   height: 458px;
@@ -812,7 +799,6 @@ main {
 }
 
 .more-articles-list a, .recommendations-list a {
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 15px;
   color: black;
 }
@@ -873,6 +859,11 @@ main {
   height: 56px;
 }
 
+#all-recommendations {
+  display: block;
+  margin: auto 0;
+}
+
 #footer-logo {
   height: 26px;
   width: 185px;
@@ -892,6 +883,10 @@ main {
   list-style: none;
 }
 
+.column h3, .column a {
+  font-family: 'Libre Franklin', arial, helvetica, sans-serif;
+}
+
 .column h3 {
   margin-bottom: 14px;
   font-size: 12px;
@@ -906,7 +901,6 @@ main {
 }
 
 .last-column-block {
-  backgrounde: url(images/footer-last.png) no-repeat;
   background-size: contain;
   width: 200px;
   height: 270px;

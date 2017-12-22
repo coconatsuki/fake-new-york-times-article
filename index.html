@@ -30,10 +30,10 @@
         <a href="#"><img src="images/logo.png" alt="logo"></a>
       </section>
       <section class="user-tools">
-        <button class="suscribe-button nav-right-button button">
+        <button class="suscribe-button nav-right-button button id="nav-b1"">
           <span>SUBSCRIBE NOW</span>
         </button>
-        <button class="login-button nav-right-button button">
+        <button class="login-button nav-right-button button" id="nav-b2">
           <span>LOG IN</span>
         </button>
         <div class="parameters"><a href="#"><i class="params-icon"></i></a></div>
@@ -121,12 +121,12 @@
           <div class="figure">
             <div class="main-photo"><img src="images/jumbo.jpg" /></div>
             <figcaption>
-              <span id="main-caption">
+              <span class="caption">
                 Alan Guth was one of the first physicists to hypothesize the
                  existence of inflation, which explains how the universe expanded
                  so uniformly and so quickly in the instant after the Big Bang
                  13.8 billion years ago.
-               </span><span id="main-credit">Rick Friedman for The New York Times</span>
+               </span><span id="main-credit" class="credit" >Rick Friedman for The New York Times</span>
              </figcaption>
           </div>
         </section>
@@ -269,7 +269,7 @@
                 </article>
               </div>
               <footer class="comments-footer">
-                <a href="#">SEE ALL COMMENTS</a>
+                <a class="nav-links" href="#">SEE ALL COMMENTS</a>
               </footer>
             </div>
           </div>
@@ -278,7 +278,7 @@
           <figure class="theory-of-inflation">
             <figcaption class="inflation-caption">
               <h2>The Theory of Inflation</h2>
-              <p>
+              <p class="caption">
                 Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.
               </p>
             </figcaption>
@@ -402,9 +402,9 @@
         </section>
         <section class="video">
           <iframe width="645" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-          <p>
+          <p class="caption small-caption">
             Stanford Professor Andrei Linde celebrates physics breakthrough
-            <span>Video by StanfordUniversity</span>
+            <span class="credit">Video by StanfordUniversity</span>
           </p>
         </section>
         <section class="down-story-body story">
@@ -505,11 +505,11 @@
           <figure class="middle-image">
             <img src="images/satellite.jpg" />
             <figcaption>
-              <p>
+              <p class="caption small-caption">
                 The Bicep2 telescope, in the foreground, was used to detect
                  the faint spiraling gravity patterns — the signature of a
                  universe being wrenched violently apart at its birth.
-                 <span class="middle-image-credit">
+                 <span class="middle-image-credit credit">
                    Steffen Richter/Associated Press
                  </span>
                </p>
@@ -583,7 +583,7 @@
             <li><span class="number">10.</span><a href="#">How the ‘Small-Business Tax Cut’ Would Also Be a Tax Cut for the Wealthy</a><span  class="trend-pic" id="trending10"></span></li>
           </ol>
           <footer class="trending-footer">
-              <a href="#">View More Trending Stories »</a>
+              <a  class="nav-links" href="#">View More Trending Stories »</a>
           </footer>
         </div>
       </aside>
@@ -591,7 +591,7 @@
         <section class="more-articles-top">
           <header>
             <h2>More in Space & Cosmos</h2>
-            <p id="cosmos-section"><a href="#">Go to the Space & Cosmos Section »</a></p>
+            <a class="nav-links" href="#">Go to the Space & Cosmos Section »</a>
           </header>
           <ul class="more-articles-list">
             <li>
@@ -649,7 +649,7 @@
         <section class="recommendations">
           <header>
             <h2>Recommended for You</h2>
-              <a id="all-recommendations" href="#">Go to All Recommendations »</a>
+              <a id="all-recommendations" class="nav-links" href="#">Go to All Recommendations »</a>
           </header>
           <ul class="recommendations-list">
             <li>
@@ -689,7 +689,7 @@
     <footer class="main-footer">
       <header>
         <h2 class="footer-header"><span id="footer-logo"></span></h2>
-        <a id="home-page-link" href="#">Go to Home Page »</a>
+        <a id="home-page-link" class="nav-links" href="#">Go to Home Page »</a>
       </header>
       <nav class="footer-nav">
         <ul class="column">
